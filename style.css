@@ -167,17 +167,18 @@ a{
     margin-top: -43px;    
 }
 
-/* button text */
-
 .text-intro input{
 
-width: 511px;
-height: 58.261px;
-border-radius: 30px;
-border: none;
-font-size: 18px;
-padding-left: 30px;
-}
+    width: 511px;
+    height: 58.261px;
+    border-radius: 30px;
+    border: none;
+    font-size: 18px;
+    padding-left: 30px;
+    }
+    
+
+/* button text */
 
 
 
@@ -198,8 +199,23 @@ padding-left: 30px;
     }
 
 
-    @media (max-width:1100px){
+    /* Responsivo */ 
 
+@media (max-width:1250px){
+
+    body{
+        background-image: url(./img/background.png);
+    }
+
+    .background-img{
+
+        background-image: none;
+        max-width: 1200px;
+    
+    }
+    
+
+    
         
 .contanier{
 
@@ -210,5 +226,113 @@ padding-left: 30px;
 .photo-intro img{
 
 display: none;
+
 }
+
+.social-medias{
+
+    gap:10px;
+    margin-left: 0px;
+    margin-top: 30px;    
+    justify-self: center;
+    align-self: center;
+
+}
+
+.header{
+    justify-content: center;
+    max-width: 100%;
+}
+
     }
+
+@media (max-width:700px){
+
+    .social-medias{
+
+        gap:10px;
+        margin-left: 0px;
+        margin-top: 10px;  
+        margin-left: 38px;  
+        justify-self: left;
+        align-self: left;}
+
+        .contanier h1{
+
+            font-size: 48px;
+
+        }
+        .contanier h2 {
+
+            font-size: 18px;
+        
+        }
+        .menu-li{
+            display: none;
+        }
+
+        .text-intro input{
+
+            width: 411px;
+            height: 58px;
+            border-radius: 20px;
+            font-size: 14px;
+            }
+
+            .button-intro{
+
+                margin-left: 300px;
+            
+            }
+}
+
+@media (max-width:500px){
+
+    .contanier h1{
+
+        font-size: 36px;
+
+    }
+    .contanier h2 {
+
+        font-size: 14px;
+        margin-top: 20px;
+    
+    }
+
+    .contanier h1 br,
+    .contanier h2 br{
+        display: none;
+    }
+
+    .text-intro input{
+
+        width: 300px;
+        height: 58px;
+        border-radius: 20px;
+        margin-top: -20px;
+        margin-left: auto;
+        margin-right: auto;
+        }
+    .social-medias{
+        margin-left: -20px;  
+        justify-self: center;
+        align-self: center;
+
+    }
+    .button-intro{
+
+        margin-left: 190px;
+    
+    }
+
+    .button-intro{
+
+        padding: 10px;
+        color: #ffffff;
+        border-radius: 24px;    
+        }
+
+
+
+}

@@ -4,6 +4,7 @@ body{
 
     font-family: 'Montserrat', sans-serif;
     background: rgba(178, 178, 178, 0.196);;
+    overflow-x: hidden;
 }
 
 h1,h2,body{
@@ -79,6 +80,20 @@ a{
 
 }
 
+
+.button-header{
+
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    border-radius: 4px;
+    padding-top: 6px;
+    background: linear-gradient(250deg, #8468F5 72.09%, #EC74E7 352.57%);
+    color: #ffffff;
+
+}
+
+
 .button-header:hover{
 
     background: #9277ff;
@@ -89,18 +104,6 @@ a{
 .button-header:hover:after{
 
     display: none;
-
-}
-
-.button-header{
-
-    width: 120px;
-    height: 30px;
-    text-align: center;
-    border-radius: 4px;
-    padding-top: 4px;
-    background: linear-gradient(250deg, #8468F5 72.09%, #EC74E7 352.57%);
-    color: #ffffff;
 
 }
 
@@ -140,6 +143,30 @@ a{
 
 }
 
+.text-intro{
+
+    padding: 20px;
+    justify-self: center;
+    align-self: center;
+}
+
+.text-intro h1{
+    margin-bottom: 14px;
+}
+
+.text-intro h2{
+    margin-bottom: 60px;
+}
+
+.social-medias{
+
+    display: flex;
+    list-style: none;
+    gap:10px;
+    margin-left: 40px;
+    margin-top: -43px;    
+}
+
 /* button text */
 
 .text-intro input{
@@ -168,4 +195,20 @@ padding-left: 30px;
     justify-content: space-between;
     gap: 12px;
 
+    }
+
+
+    @media (max-width:1100px){
+
+        
+.contanier{
+
+    grid-template-columns: 1fr;
+
+}
+
+.photo-intro img{
+
+display: none;
+}
     }

@@ -140,6 +140,21 @@ a{
 
     margin-left: 100px ;
     width: 100%;
+    animation: float 10s ease-in-out infinite;
+
+}
+
+@keyframes float {
+    
+    0%, 100% {
+
+        transform: translateY(0);
+
+    }
+
+    50%{
+        transform: translateY(-50px);
+    }
 
 }
 

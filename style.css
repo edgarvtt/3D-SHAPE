@@ -5,6 +5,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     background: rgba(178, 178, 178, 0.196);;
     overflow-x: hidden;
+
 }
 
 h1,h2,body{
@@ -193,6 +194,7 @@ a{
     }
     
 
+
 /* button text */
 
 
@@ -211,6 +213,10 @@ a{
     justify-content: space-between;
     gap: 12px;
 
+    }
+
+    .button-intro:hover{
+        background: #7c5cffdb;
     }
 
  

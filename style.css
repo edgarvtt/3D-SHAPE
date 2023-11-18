@@ -198,8 +198,16 @@ a{
 
     }
 
+ 
+/* Responsivo */ 
 
-    /* Responsivo */ 
+@media (max-width: 1800px){
+
+    .menu-mobile{
+        display: none;
+       }
+
+}
 
 @media (max-width:1250px){
 
@@ -292,7 +300,27 @@ display: none;
 
         font-size: 36px;
 
+
     }
+
+    .menu-mobile{
+        list-style: none;
+        display: grid;
+        gap: 12px;
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+
+    .menu-mobile a{
+        background: #8468F5;
+        border-radius: 8px;
+        padding: 16px 32px;
+        text-align: center;
+        color: #ffffff;
+    }
+    
     .contanier h2 {
 
         font-size: 14px;
@@ -316,8 +344,6 @@ display: none;
         }
     .social-medias{
         margin-left: -20px;  
-        justify-self: center;
-        align-self: center;
 
     }
     .button-intro{

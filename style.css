@@ -1,4 +1,4 @@
-
+/* geral */
 
 body{
 
@@ -12,6 +12,11 @@ h1,h2,body{
     margin: 0;
 }
 
+a{
+    text-decoration: none;
+    color: inherit
+}
+
 .background-img{
 
     background-image: url(./img/background.png);
@@ -22,10 +27,7 @@ h1,h2,body{
 
 /*header*/
 
-a{
-    text-decoration: none;
-    color: inherit
-}
+
 
 .header,.menu-li{
 
@@ -143,7 +145,7 @@ a{
     width: 100%;
     animation: float 10s ease-in-out infinite;
 
-}
+} /*animação da foto */
 
 @keyframes float {
     
@@ -157,7 +159,7 @@ a{
         transform: translateY(-50px);
     }
 
-}
+} /*parametros da animação */
 
 .text-intro{
 
@@ -215,7 +217,7 @@ a{
 
     }
 
-    .button-intro:hover{
+.button-intro:hover{
         background: #7c5cffdb;
     }
 
@@ -242,21 +244,18 @@ a{
         max-width: 1200px;
     
     }
-    
+     
+    .contanier{
 
-    
-        
-.contanier{
+       grid-template-columns: 1fr;
 
-    grid-template-columns: 1fr;
+    }
 
-}
+    .photo-intro img{
 
-.photo-intro img{
+    display: none;
 
-display: none;
-
-}
+    }
 
 .social-medias{
 
